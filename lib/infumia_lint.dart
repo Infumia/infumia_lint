@@ -24,7 +24,7 @@ class _PreferConstEmptyLiterals extends DartLintRule {
   @override
   void run(
     CustomLintResolver resolver,
-    DiagnosticReporter reporter,
+    ErrorReporter reporter,
     CustomLintContext context,
   ) {
     context.registry.addListLiteral((node) {
