@@ -1,4 +1,5 @@
 import 'package:analyzer/diagnostic/diagnostic.dart';
+import 'package:analyzer/error/error.dart' hide LintCode;
 import 'package:analyzer/error/listener.dart';
 import 'package:custom_lint_builder/custom_lint_builder.dart';
 
@@ -18,6 +19,7 @@ class _PreferConstEmptyLiterals extends DartLintRule {
           name: 'prefer_const_empty_literals',
           problemMessage:
               'Use const for empty list/map/set literals to avoid allocations.',
+          errorSeverity: ErrorSeverity.WARNING,
         ),
       );
 
