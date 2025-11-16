@@ -6,7 +6,7 @@ homepage: https://github.com/infumia/infumia_lint
 issue_tracker: https://github.com/infumia/infumia_lint/issues
 
 environment:
-  sdk: ^3.9.2
+  sdk: ">=3.9.2"
 
 dependencies:
   custom_lint: ">=0.8.0"
