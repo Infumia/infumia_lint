@@ -19,14 +19,14 @@ class _PreferConstEmptyLiterals extends DartLintRule {
           name: 'prefer_const_empty_literals',
           problemMessage:
               'Use const for empty list/map/set literals to avoid allocations.',
-          errorSeverity: ErrorSeverity.WARNING,
+          errorSeverity: DiagnosticSeverity.WARNING,
         ),
       );
 
   @override
   void run(
     CustomLintResolver resolver,
-    ErrorReporter reporter,
+    DiagnosticReporter reporter,
     CustomLintContext context,
   ) {
     context.registry.addListLiteral((node) {
