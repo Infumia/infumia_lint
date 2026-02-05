@@ -16,10 +16,10 @@ dependencies:
     git:
       url: https://github.com/Infumia/dart_custom_lint.git
       path: packages/custom_lint
-      ref: 9819835468a7a8603f75a83d18e810431f24af77
+      ref: 946113f014ad6f6bbca81be8d7a0c571cc7b2531
 
   custom_lint_builder:
     git:
       url: https://github.com/Infumia/dart_custom_lint.git
       path: packages/custom_lint_builder
-      ref: 9819835468a7a8603f75a83d18e810431f24af77
+      ref: 946113f014ad6f6bbca81be8d7a0c571cc7b2531
