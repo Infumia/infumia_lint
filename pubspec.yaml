@@ -9,17 +9,17 @@ environment:
   sdk: ">=3.9.2"
 
 dependencies:
-  analyzer: ">=10.0.2"
+  analyzer: ">=10.0.0"
   analyzer_plugin: ">=0.14.2"
 
   custom_lint:
     git:
       url: https://github.com/Infumia/dart_custom_lint.git
       path: packages/custom_lint
-      ref: c172994a64839cacaae1698a1faa603cc669eab2
+      ref: b86cd8569301b9ea817c04469dc9df52070a25cd
 
   custom_lint_builder:
     git:
       url: https://github.com/Infumia/dart_custom_lint.git
       path: packages/custom_lint_builder
-      ref: c172994a64839cacaae1698a1faa603cc669eab2
+      ref: b86cd8569301b9ea817c04469dc9df52070a25cd
